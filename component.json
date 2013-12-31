@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "keywords": ["console", "repl", "code"],
   "dependencies": {
-    "component/history": "*",
+    "amasad/history": "*",
     "component/grow": "*",
     "component/domify": "*",
     "component/emitter": "*"
