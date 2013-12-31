@@ -12,12 +12,15 @@ var lineRe = /\r\n|\r|\n/;
  */
 function Console() {
   this.el = domify(template);
+  this.history = new History();
   this.prompt = this.el.querySelector('.prompt');
   this.textarea = this.el.querySelector('textarea');
   grow(this.textarea);
   this.textarea.addEventListener('keydown', this.$keydown.bind(this));
-  this.textarea;
-  this.history = new History();
+  this.el.addEventListener(
+    'click',
+    this.textarea.focus.bind(this.textarea, null)
+  );
 }
 
 Emitter(Console.prototype);
