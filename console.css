@@ -1,10 +1,10 @@
-
 .component-console {
   font-family: monospace, serif;
   font-size: 12px;
 }
 
 .component-console textarea {
+  resize: none;
   width: calc(100% - 12px);
   border: 0;
   outline: none;
