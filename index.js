@@ -64,7 +64,10 @@ Console.prototype.result = function (val) {
 
 Console.prototype.$enter = function () {
   var val = this.value();
-  this.log('<span class="chevron">&#8250;</span><span class="val">' + val + '</span>', 'old-prompt');
+  this.log(
+    '<span class="chevron">&#8250;</span><span class="val">' + val + '</span>',
+    'old-prompt'
+  );
   this.emit('command', val);
   this.history.add(val);
   this.value('');
