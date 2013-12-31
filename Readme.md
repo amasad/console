@@ -25,15 +25,15 @@ konsole.log('started');
 
 ## API
 
-  ### new Console()
+### new Console()
 
-  ## Console#log(val, classname)
+## Console#log(val, classname)
 
-  logs to the console right before the prompt element with the passed classname.
+logs to the console right before the prompt element with the passed classname.
 
-  ## Console#result
+## Console#result
 
-  like log but with preset styles. See css file.
+like log but with preset styles. See css file.
 
 ## Events
 
