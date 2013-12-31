@@ -1,6 +1,8 @@
 .component-console {
   font-family: monospace, serif;
   font-size: 12px;
+  height: 100%;
+  overflow: scroll;
 }
 
 .component-console textarea {
