@@ -3,7 +3,7 @@
 
   textarea-based browser console, similar to chrome dev tools.
 
-  [!demo](https://i.cloudup.com/SN8xtTF0Eh.png)
+  ![demo](https://i.cloudup.com/SN8xtTF0Eh.png)
 
 ## Installation
 
