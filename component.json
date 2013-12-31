@@ -1,0 +1,24 @@
+{
+  "name": "console",
+  "repo": "amasad/console",
+  "description": "A textarea based console",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/history": "*",
+    "component/grow": "*",
+    "component/domify": "*",
+    "component/emitter": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "console.css"
+  ],
+  "remotes": []
+}

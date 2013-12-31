@@ -1,0 +1,1 @@
+module.exports = '<div class="component-console">\n  <div class="prompt">\n    <span class="chevron">&#8250;</span>\n    <textarea rows=1></textarea>\n  </div>\n</div>\n';

@@ -1,0 +1,18 @@
+<!doctype html>
+<head>
+  <link rel="stylesheet" href="../build/build.css" charset="utf-8"/>
+  <style>
+
+  </style>
+</head>
+<body>
+  <script src="../build/build.js"></script>
+  <script>
+    var Console = require('console');
+    var console = new Console();
+    document.body.appendChild(console.el);
+    console.on('command', function (val) {
+      this.result(window.eval(val), 'result');
+    });
+  </script>
+</body>
