@@ -1,4 +1,3 @@
-
 # console
 
   textarea-based browser console, similar to chrome dev tools.
@@ -28,6 +27,8 @@ konsole.log('started');
 ## API
 
 ### new Console()
+
+`console.el` will contain the console container element. Use to append, style, etc.
 
 ## Console#log(val, classname)
 
