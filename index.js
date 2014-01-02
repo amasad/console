@@ -89,6 +89,10 @@ Console.prototype.result = function (val) {
   this.log(val, 'result');
 };
 
+Console.prototype.error = function (val) {
+  this.log(val, 'error');
+};
+
 Console.prototype.$enter = function () {
   var val = this.value();
   this.log(

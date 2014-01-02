@@ -3,6 +3,7 @@
   font-size: 12px;
   height: 100%;
   overflow: scroll;
+  line-height: 14px;
 }
 
 .component-console textarea {
@@ -16,7 +17,6 @@
   font-size: 100%;
   overflow: auto;
   padding: 0;
-  line-height: 18px;
 }
 
 .component-console pre {
@@ -39,7 +39,7 @@
   width: 10px;
   font-size: 18px;
   font-family: verdana,helvetica,arial,sans-serif;
-  line-height: 17px;
+  margin-top: -2px;
 }
 
 .component-console .old-prompt > span{
@@ -48,6 +48,7 @@
 
 .component-console .old-prompt .chevron {
   margin-right: 6px;
+  margin-left: -14px;
 }
 
 .component-console .old-prompt .val {
@@ -56,9 +57,15 @@
 
 .component-console .old-prompt {
   color: gray;
+  margin-left: 14px;
 }
 
 .component-console .result {
   margin-left: 14px;
   color: #1C00CF;
+}
+
+.component-console .error {
+  margin-left: 14px;
+  color: #FF0000;
 }

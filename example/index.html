@@ -7,6 +7,7 @@
       width: 600px;
       height: 300px;
       border: 1px solid;
+      padding: 5px;
     }
   </style>
 </head>
@@ -18,7 +19,11 @@
     var console = new Console();
     document.querySelector('.console').appendChild(console.el);
     console.on('command', function (val) {
-      this.result(window.eval(val), 'result');
+      try {
+        this.result(window.eval(val), 'result');
+      } catch (e) {
+        this.error(e.name + ': ' + e.message);
+      }
     });
   </script>
 </body>
