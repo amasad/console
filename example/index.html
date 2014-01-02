@@ -2,15 +2,21 @@
 <head>
   <link rel="stylesheet" href="../build/build.css" charset="utf-8"/>
   <style>
-
+    .console {
+      margin:  0 auto;
+      width: 600px;
+      height: 300px;
+      border: 1px solid;
+    }
   </style>
 </head>
 <body>
   <script src="../build/build.js"></script>
+  <div class="console"></div>
   <script>
     var Console = require('console');
     var console = new Console();
-    document.body.appendChild(console.el);
+    document.querySelector('.console').appendChild(console.el);
     console.on('command', function (val) {
       this.result(window.eval(val), 'result');
     });
