@@ -2,7 +2,7 @@
   "name": "console",
   "repo": "amasad/console",
   "description": "textarea-based browser console, similar to chrome dev tools.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": ["console", "repl", "code"],
   "dependencies": {
     "amasad/history": "*",
