@@ -82,6 +82,7 @@ Console.prototype.log = function(val, klass) {
   var el = domify('<pre>' + val + '</pre>');
   if (klass) el.classList.add(klass);
   this.el.insertBefore(el, this.prompt);
+  this.el.scrollTop = this.el.scrollHeight;
 };
 
 Console.prototype.result = function (val) {
